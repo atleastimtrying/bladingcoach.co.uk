@@ -11,7 +11,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+  <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -40,19 +40,24 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
     <nav>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a href="#safety">Safety</a>
+        <a href="#contact" class="contact">Contact</a>
+        <a href="#coaching" class="coaching">Coaching</a>
+        <a href="#beginners" class="beginners">Beginners</a>
+        <a href="#about" class="about">About</a>
+        <a href="#safety" class="safety">Safety</a>
     </nav>
-    <h1>Let's go skate!</h1>
+    <header>
+        <h1>Let's go skate!</h1>
+        <p>Anders, the Blading Coach will work with you to improve your skating!</p>
+    </header>
 
-    <section>
+    <section class="about">
         <h2><a name="about">About</a></h2>
         <p>Blading Coach is a venture from Anders Fisher, intending to help people learn to skate(rollerblade) and learn to skate better!</p>
         <p>Anders has been skating in some form or other since 1996 and has a dedicated methodical approach to improving his and your skating. 
             His background is aggressive skating and helping others improve their technique, body positioning and confidence in their tricks.</p>
     </section>
-    <section>
+    <section class="contact">
         <h2><a name="contact">Contact</a></h2>
         <p>You can email Anders using the form below to organise a session or just find out how you can work together.</p>
 
@@ -61,22 +66,26 @@
             <input type="text" name="user_name" required>
             <label>Email</label>
             <input type="email" name="user_email" required>
-            <label>Message</label>
+            <label>Questions/Comments</label>
             <textarea name="text"></textarea>
             <div class="g-recaptcha" data-sitekey="6Le3O3YUAAAAAN3SfyUJiCs7itROKfxmh1Nrhpof"></div>
             <input type="submit" value="Send">
         </form>
     </section>
-    <!--
-    <section>
-        <h2>Coaching</h2>
+    <section class="coaching">
+        <h2><a name="coaching">Coaching</a></h2>
+        <p>Learning doesn't need to stop once you can roll along, or do a grind, or even win competitions, there's always ways to improve your technique or get that extra bit of style into your tricks.</p>
+        <p>Anders offers coaching for more experienced rollerbladers, during a session he can watch, film, advise and discuss your technique and ways in which you can reach your goals!</p>
+        <p>By having a focussed skate concentrating of a few key techniques you can really hone your skills and build confidence!</p>
     </section>
-    <section>
-        <h2>Beginners</h2>
+    <section class="beginners">
+        <h2><a name="beginners">Beginners</a></h2>
+        <p>How are those skates feeling? Anders will help you feel more confident and improve your skills whatever level you are at, from those that have never been on skates before to those who want to learn to roll backwards, drop in a ramp of do their first grinds!</p>
+        <p>Anders has been patiently helping beginners overcome their fears and gain confidence through good technique and understanding for years.</p>
     </section>
-    -->
-    <section>
+    <section class="safety">
         <h2><a name="safety">Safety</a></h2>
+        <p>Safety is a very important part of learning to skate, building confidence and getting plenty of skating time in. The following are all part of the process and you'll hear Anders talk about them a great deal!</p>
         <ol>
             <li>Wear a helmet</li>
             <li>Wear pads</li>
@@ -86,6 +95,9 @@
             <li>Stretch</li>
         </ol>
     </section>
+    <footer>
+        <p>Website built by <a href="http://andersfisher.com">Anders Fisher</a></p>
+    </footer>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>

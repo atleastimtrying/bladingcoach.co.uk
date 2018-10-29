@@ -96,10 +96,78 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+*{
+    font-family: 'Arimo', sans-serif;
+    box-sizing: border-box;
+}
 
+nav {
+    background: #333;
+    display: flex;
+    width: 100%;
+}
 
+nav a{
+    flex: 1;
+    text-decoration: none;
+    text-align: center;
+    padding: 1em;
+}
 
+nav a:hover{
+    color: orange;
+    background: white;
+}
 
+header, 
+section{
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    background: #DDD;
+    padding: 40px;
+}
+
+.contact{
+    background: #316FA6;
+    color: #fff;
+}
+.coaching{
+    background: #628F3C;
+    color: #fff;
+}
+
+.beginners{
+    background: #F0D534;
+    color: #333;
+}
+
+.about{
+    background: #A0713C;
+    color: #fff;
+}
+.safety{
+    background: #BD3634;
+    color: #fff;
+}
+
+#contact-form label{
+    display:block;
+    margin-top: 1em;
+}
+
+#contact-form input{
+    display:block;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+}
+
+#contact-form textarea{
+    display:block;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+}
 
 
 
